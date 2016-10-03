@@ -64,6 +64,3 @@
     </div>
 </div>
 @endsection
-
-@section('footer')
-@stop

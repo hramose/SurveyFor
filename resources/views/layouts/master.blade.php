@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>surveyFor || {{ $title or 'Welcome' }}</title>
         <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-        <link href="{!! asset('css/bootstrap.min.css') !!}" media="all" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
         <link href="{!! asset('css/app.css') !!}" media="all" rel="stylesheet" type="text/css" />
     </head>
 
@@ -72,27 +72,10 @@
                 @yield('content')
             </div>
 
-            <div>
-                @section('footer')
-                    <div id="footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <a class="" href="/">SurveyFor</a>
-                                </div>
-                                <div class="col-md-12">
-                                    <p><small>COPYRIGHT © SurveyFor 2016</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                @show
-            </div>
-
         </div>
 
-        <script type="text/javascript" src="{!! asset('js/jquery.js') !!}"></script>
-        <script type="text/javascript" src="{!! asset('js/bootstrap.min.js') !!}"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
         <script type="text/javascript" src="{!! asset('js/Chart.js') !!}"></script>
         <script type="text/javascript" src="{!! asset('js/app.js') !!}"></script>
     </body>
