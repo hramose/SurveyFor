@@ -12,7 +12,7 @@
     </head>
 
     <body>
-        <div id="blade_content">
+        <div id="surveyfor_container">
             @if (!Auth::guest())
                 <nav>
                     <div class="nav-wrapper">
@@ -27,7 +27,7 @@
                     </div>
                 </nav>
             @endif
-            <div>
+            <div class="main-content">
                 @yield('content')
             </div>
 
